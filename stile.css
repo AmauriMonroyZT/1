@@ -1,0 +1,101 @@
+/*etiquta, id, clase*/
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	/* nombre delcolor, #arg*/
+	/*background-color: brown; */
+	/*background-color: #990;*/
+	background-color: #8A4B08;
+	color: white;
+	text-align: center;/*Indicar la posicion del tecxto*/ 
+}
+
+h1{
+font-size: 3em; /*Aumenta el tamaño del encabezado*/
+margin: 0.5em; /*Separa el titulo con los demas textos*/
+}
+
+ul{
+	width: 100%;
+}
+ul li{
+	border: 1px solid white;
+color: white;
+	display: inline-block;/*Indicar que se pueda visualizar*/
+	font-size: 1.3em; /*aumento del border*/
+	padding: 0.5em;/*Para el tamaño de borde*/
+	width: 23%;
+}
+ul li:hover{
+	border-radius: 16px;
+	border: dotted;
+	background-color: rgb(0,80,0);
+	transition: 2s;
+
+}
+section {
+	margin-top: 1em
+	width: 100% 
+}
+section article {
+	background-color: white;
+	display: inline-block;
+	width: 60% 
+}
+
+section aside {
+	background-color: white;
+min-height: 530px;
+	display: inline-block;
+	vertical-align: top;
+	width: 30% 
+}
+
+section img{
+	max-width: 100%;
+}
+ footer{
+ 	background-color: #777;
+ 	box-sizing: border-box;
+ 	font-weight: bold;
+ 	color: #ddd;
+ 	padding: 2em;
+ 	width: 100;
+ }
+
+ /*section#Gal{
+ 	background-color: rgb(70,100,200);
+width: 100%;
+}*/
+article.Galeria{/*Clasifica las imagenes*/
+	background-color:#8A4B08 ;
+
+color: black;
+cursor: pointer;
+display: inline-block;
+margin: 1em;
+width: 28%;
+}
+
+article.Galeria img:hover{/*para tranparencia de mouse*/
+	opacity: 0.7;
+	transform: 2s;
+}
+
+
+	/*encierra a las imagenes en  un cuadro*/
+/*article.Galeria img{    
+border-radius: 10px;
+max-height: 100px;
+max-width: 90%;
+}*/
+p#Ima3{
+
+	color: blue;
+
+}
