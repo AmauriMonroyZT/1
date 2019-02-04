@@ -28,15 +28,19 @@ ul{
 }
 ul li{
 	background-color: #084B8A;
-	border: 1px solid white;///*color borde*/
+	border: 1px solid white;/*color borde*/
 color: white ;
 color: white;
+list-style: none;
 	display: inline-block;/*Indicar que se pueda visualizar, lo ordena*/
 	font-size: 1.2em; /*aumento del border*/
 	padding: 0.5em;/*Para el tamaño de borde*/
 	width: 23%;
 }
-ul li:hover{
+a{
+	text-decoration: none;/*Quita subrayado de links*/
+}
+ul li:hover,.seleccionado{
 	border-radius: 16px;
 	color: white;
 	/*border: dotted;*//*Hace que se extienda el borde*/
@@ -45,13 +49,14 @@ ul li:hover{
 
 }
 section {
-	margin-top: 2em
-	width: 100% 
+	margin-top: 2em;
+	width: 100% ;
 }
 section article {
 	background-color: white;
 	display: inline-block;
 	width: 60% 
+
 }
 
 section aside {
@@ -93,6 +98,11 @@ article.Galeria img:hover{/*para tranparencia de mouse*/
 	transform: 2s;
 }
 
+article.Galeria img{
+width:  200;
+
+}
+
 
 	/*encierra a las imagenes en  un cuadro*/
 /*article.Galeria img{    
@@ -103,5 +113,34 @@ max-width: 90%;
 p#Ima3{
 
 	color: blue;
+
+}
+
+
+
+form{
+	background-color: silver;
+	border-radius: 20px;/*Redondea color*/
+	color: black;
+	font-size: 1.5em;/*Aumenta tamaño letra*/
+	margin: 2em auto;/*Cemtrado arriba y abajo*//*Espacio externo*/
+padding: 1em;/*Espacio interni*/
+	width: 60%;/*Izquiera derecha*/
+
+
+}
+
+
+form input{
+	font-size: 1em;
+	margin: 0.2;
+}
+
+form input[type="submit"]{
+background-color: #44f;
+border-radius: 4px;
+color: white;
+cursor: pointer;
+padding: 0.3em;
 
 }
