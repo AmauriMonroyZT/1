@@ -15,7 +15,7 @@ body{
 }
 
 h1{
-	background-color: #DF7401;
+background-color: #DF7401;
 	color: white;
 	border: 10px solid white;
 font-size: 3em; /*Aumenta el tamaño del encabezado*/
@@ -98,10 +98,6 @@ article.Galeria img:hover{/*para tranparencia de mouse*/
 	transform: 2s;
 }
 
-article.Galeria img{
-width:  200;
-
-}
 
 
 	/*encierra a las imagenes en  un cuadro*/
@@ -143,4 +139,24 @@ color: white;
 cursor: pointer;
 padding: 0.3em;
 
+}
+table{
+	text-align: center;
+	width: 100%;
+}
+table td{
+	color: black;
+
+}
+table tr:nth-child(even){
+background-color: #ddb;
+}
+table th{
+	
+	background-color: orange;
+
+}
+table td, th{
+font-size: 1.2em;
+	padding: 0.2em;
 }

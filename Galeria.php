@@ -10,8 +10,9 @@ require_once("encabezado.php")
 ?>
 <section id="Gal">
 <article class="Galeria">
-	<img  src="Informatica.jpg" width="400" height="250"/>
-	<p>Informatica</p>
+	<img  src="Informatica/Informatica.jpg" width="400" height="250"/>
+	<a href= "Informatica/Cuatri.php"> <li> Informatica</li> </a>
+	 
 
 </article>
 <article class="Galeria">

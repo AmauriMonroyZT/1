@@ -10,23 +10,22 @@
 require_once("encabezado.php");
 ?> 
 <form action="" method="post">
-Nombre de Usuario: <br>
+Nombre: <br>
 <input type="text" name="nombre"> <br>
-Contraseña: <br>
+Password: <br>
 <input type="password" name="password">
 <br>
 <input type="submit" name="login" value="Ingresar">
 </form>
 <?php
     if(isset($_POST["login"])){
-    require_once("usuario.php");
+    require_once("admin/usuario.php");
     $obj=new Usuario();
     $nom=$_POST["nombre"];
     $pass=$_POST["password"];
     $bandera=$obj->validar($nom,$pass);
     if($bandera==true){
-        header("Location: admin/index.php");
-
+        echo "Bienvenido";
     }else{
         echo "Contraseña o Nombre de usuario incorrecto";
     }
