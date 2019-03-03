@@ -25,9 +25,7 @@ Contraseña: <br>
     $pass=$_POST["password"];
     $bandera=$obj->validar($nom,$pass);
     if($bandera==true){
-        echo "Bienvenido $nom";
-
-        header("Location: Galeria.php");
+        header("Location: admin/index.php");
 
     }else{
         echo "Contraseña o Nombre de usuario incorrecto";

@@ -5,6 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="../stile.css">
 </head>
 <body>
+	<?php
+require_once("encabezado.php")
+?>
 	 <ul>
 	 	<a href="?sec=us"><li>Usuario</li></a>
 	 </ul>

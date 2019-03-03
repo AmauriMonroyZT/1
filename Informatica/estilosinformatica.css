@@ -1,4 +1,3 @@
-/*etiquta, id, clase*/
 *{
 	border: 0;
 	margin: 0;
@@ -78,85 +77,25 @@ section img{
  	padding: 2em;
  	width: 100;
  }
-
- /*section#Gal{
- 	background-color: rgb(70,100,200);
-width: 100%;
-}*/
-article.Galeria{/*Clasifica las imagenes*/
+article.Cuatri{
+	/*Clasifica las imagenes*/
 	background-color:white ;
 
 color: black;
 cursor: pointer;
 display: inline-block;
-margin: 1em;
+margin: 1em; 
 width: 28%;
 }
-
-article.Galeria img:hover{/*para tranparencia de mouse*/
-	opacity: 0.7;
+article.Cuatri img:hover{/*para tranparencia de mouse*/
+opacity: 0.7;
 	transform: 2s;
 }
 
-
-
-	/*encierra a las imagenes en  un cuadro*/
-/*article.Galeria img{    
-border-radius: 10px;
-max-height: 100px;
-max-width: 90%;
-}*/
-p#Ima3{
-
-	color: blue;
-
-}
-
-
-
-form{
-	background-color: silver;
-	border-radius: 20px;/*Redondea color*/
-	color: black;
-	font-size: 1.5em;/*Aumenta tamaño letra*/
-	margin: 2em auto;/*Cemtrado arriba y abajo*//*Espacio externo*/
-padding: 1em;/*Espacio interni*/
-	width: 60%;/*Izquiera derecha*/
-
-
-}
-
-
-form input{
-	font-size: 1em;
-	margin: 0.2;
-}
-
-form input[type="submit"]{
-background-color: #44f;
-border-radius: 4px;
-color: white;
-cursor: pointer;
-padding: 0.3em;
-
-}
-table{
-	text-align: center;
-	width: 100%;
-}
-table td{
-	color: black;
-
-}
-table tr:nth-child(even){
-background-color: #ddb;
-}
-table th{
-	
-	background-color: orange;
-
-}
-table td, th{
-font-size: 1.2em;
-	padding: 0.2em;
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    border:10px solid #666;
+    border-color: #D8D8D8;
 }

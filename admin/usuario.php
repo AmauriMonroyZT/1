@@ -1,5 +1,5 @@
 <?php
-require_once("conexion.php");
+require_once("../conexion.php");
 class Usuario extends Conexion{
 	public function validar($us,$pass){
 		$this->sentencia = "SELECT * FROM usuarios WHERE usuario = '$us' AND password='$pass'";
